@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .form-container{
+            display: flex;
+            justify-content: space-between;
+        }
+        .form{
+            width: 100%;
+        }
+        .form-group{
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .form-group label{
+            display: inline-block;
+            width: 150px;
+        }
+        .form-group  input, .form-group select, .form-group textarea{
+            width: 200px;
+        }
+        .form-group input[type="radio"] {
+            width: auto;
+        }
+        textarea{
+            height: 60px;
+            width: 200px;
+        }
+        .buttons{
+            margin-top: 10px;
+            margin-left: 25%;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+
+        <div class="form">
+            <h2>Student Registration</h2>
+            <form>
+                <div class="form-group">
+                    <label for="Fullname">Fullname:</label>
+                    <input type="text" name="Fullname">
+                </div>
+                <div class="form-group">
+                    <label for="Email">Email:</label>
+                    <input type="text" name="Email">
+                </div>
+                <div class="form-group">
+                    <label for="Mobile No">Mobile No:</label>
+                    <input type="text" name="Mobile No">
+                </div>
+                <div class="form-group">
+                    <label for="Address">Address:</label>
+                    <textarea></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="Nationality">Nationality:</label>
+                    <input type="text" name="Nationality">
+                </div>
+                <div class="form-group">
+                    <label for="Date of Birth">Date of Birth:</label>
+                    <input type="date" name="Date of Birth">
+                </div>
+                <div class="form-group">
+                    <label for="Gender">Gender:</label>
+                        <input type="radio" name="Gender">Male
+                        <input type="radio" name="Gender">Female
+                </div>
+                <div class="form-group">
+                    <label for="Highest Degree">Highest Degree:</label>
+                        
+                        <select id="Highest Degree" name="Highest Degree">
+                            <option value="" selected disabled>Select Highest Degree</option>
+                            <option value="B.Com">B.Com</option>
+                            <option value="MBA">MBA</option>
+                            <option value="B.Tech">B.Tech</option>
+                            <option value="B.sc CSE">B.sc CSE</option>
+                        </select>
+                </div>
+                <div class="form-group">
+                    <label for="CPI">CPI:</label>
+                    <input type="text" name="CPI">
+                </div>
+                <div class="form-group">
+                    <label for="University">University:</label>
+                    <input type="text" name="University">
+                </div>
+                <div class="form-group">
+                    <label for="Passing Year">Passing Year:</label>
+                        
+                            <select id="Passing Year" name="Passing Year">
+                                <option value="" selected disabled>Select Passing Year</option>
+                                <option value="2024">2024</option>
+                                <option value="2023">2023</option>
+                                <option value="2022">2022</option>
+                                <option value="2021">2021</option>
+                                <option value="2020">2020</option>
+                                <option value="2019">2019</option>
+                                <option value="2018">2018</option>
+                            </select>
+                </div>
+                <div class="buttons ">
+                    <button>Submit</button>
+                    <button>CANCEL</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="form">
+            <h2>COVID-19 Vaccine Registration</h2>
+            <form>
+                <div class="form-group">
+                    <label for="First Name">First Name:</label>
+                    <input type="text" name="First Name">
+                </div>
+                <div class="form-group">
+                    <label for="Last Name">Last Name:</label>
+                    <input type="text" name="Last Name">
+                </div>
+                <div class="form-group">
+                    <label for="Aadhar Number:">Aadhar Number:</label>
+                    <input type="text" name="Aadhar Number">
+                </div>
+                <div class="form-group">
+                    <label for="Vaccine Name">Vaccine Name:</label>
+                
+                    <select id="Vaccine Name" name="Vaccine Name">
+                        <option value="" selected disabled>select Vaccine Name:</option>
+                        <option value="X">X</option>
+                        <option value="Y">Y</option>
+                        <option value="Z">Z</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="Vaccine Center Name">Vaccine Center Name:</label>
+                
+                    <select id="Vaccine Center Name" name="Vaccine Center Name">
+                        <option value="" selected disabled>select Vaccine Center Name:</option>
+                        <option value="Morbi">Morbi</option>
+                        <option value="Rajkot">Rajkot</option>
+                        <option value="Ahmedabad">Ahmedabad</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="Date Of Dose">Date Of Dose:</label>
+                    <input type="date" name="date">
+                </div>
+                <div class="form-group">
+                    <label for="Dose Number">Dose Number:</label>
+                    <input type="text" name="Dose Number">
+                </div>
+                <div class="buttons">
+                    <button>CLICK HERE</button>
+                    <button>CANCEL</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

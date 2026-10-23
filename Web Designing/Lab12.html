@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        a:link {
+            color: blue;
+        }
+
+        a:visited {
+            color: red;
+        }
+
+        p::first-line{
+            color: blue;
+            font-size: xx-large;
+        }
+        p::first-letter{
+            color: black;
+            font-size: 50px;
+        }
+        p::selection{
+            background-color: yellow;
+        }
+        p:hover{
+            background-color: bisque;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Hello Friends!</p>
+    <a href="#">Click me</a>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam provident aperiam fugiat tempore soluta ut,
+        expedita exercitationem, quaerat molestiae voluptatum deleniti odio magni totam officiis dolorem! Maiores sunt
+        fuga molestias.</p>
+</body>
+
+</html>
